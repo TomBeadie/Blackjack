@@ -1,3 +1,53 @@
 body {
-    background-color: rgb(102, 138, 169);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+}
+
+.casino-image-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: black;
+  height: 65vh;
+  
+  .rules-wrapper {
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+  }
+
+  .casino-image {
+    background: url(assets/casinotable.jpg) no-repeat;
+    background-size: cover;
+    width: 65%;
+   
+
+    height: 65vh;
+    max-width: 800px;
+  }
+}
+
+.casino-table {
+  height: 35vh;
+  border-top: 4px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
 }
