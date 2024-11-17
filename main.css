@@ -7,18 +7,16 @@ body {
   flex-direction: column;
 }
 
-
-
-
 button {
-    color: #016f32;
-    width: 150px;
-    background: goldenrod;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-weight: bold;
-    border: none;
-    border-radius: 2px;
-    margin-bottom: 4px;
-    margin-top: 2px;
+  color: #016f32;
+  width: 150px;
+  background: goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 4px;
+  margin-top: 2px;
+  cursor: pointer;
 }
