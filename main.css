@@ -5,6 +5,19 @@ body {
   background-color: green;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-wrapper {
+  margin: 1rem;
+
+  .casino-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 button {
